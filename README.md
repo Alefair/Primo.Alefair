@@ -1,2 +1,2 @@
 # Primo.Alefair
-Libraries for the Primo RPA platform
+Libraries and Lessons for the Primo RPA platform
