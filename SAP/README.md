@@ -73,3 +73,40 @@ Session Id/number, by default - ses[0]*: Number or Id Of GuiSession
 Session*: Session as GuiSession
 ```
 ![SAP Get Session](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Get%20Session%20Properties.PNG)
+
+------------
+
+> **SAP Connect**  
+![SAP Connect](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Connect%20Form.PNG)
+
+```
+Connect to SAP with Login and Password
+
+[Properties]
+User*: SAP Account
+Password*: Password of SAP Account
+Base Name*: Base name of Connection. From Main Page
+
+[Output]
+Connection*: Connection as GuiConnection
+```
+![SAP Connect](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Connect%20Properties.PNG)
+
+------------
+
+> **SAP Extract Table**  
+![SAP Extract Table](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Extract%20Table%20Form.PNG)
+
+```
+Get a table in a datatable from a loaded transaction report
+
+[Properties]
+Session*: If only Number of session, then connection by default - con[0]. If empty by default ses[0]
+Selector*: "/app/con[0]/ses[0]/wnd[0]/usr/cntlGRID1/shellcont/shell"
+Auto Double*: Parse text of cell to Double
+Column Type*: Depending on the selected column type, the column names will change. Available: FULLNAME, DISPLAYNAME, TOOLTIP, TECH NAMES, DEFAULT. Default: DEFAULT
+
+[Output]
+Result*: Result
+```
+![SAP Extract Table](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Extract%20Table%20Properties.PNG)
