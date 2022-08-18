@@ -26,7 +26,7 @@ SAP Activities For Primo RPA Platform , used by API [Alefair.SAP.API](https://gi
 ------------
 # 1.0.1
 
-- **SAP API Object**  
+>- **SAP API Object**  
 ![SAP API Object](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20API%20Object%20Form.PNG)
 
 ```
@@ -41,9 +41,9 @@ SAP GUI object*: SAPAPI Object
 ```
 ![SAP API Object](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20API%20Object%20Properties.PNG)
 
-  
+------------
 
-- **SAP Get Connection**  
+>- **SAP Get Connection**  
 ![SAP Get Connection](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Get%20Connection%20Form.PNG)
 
 ```
@@ -57,9 +57,9 @@ Connection*: Connection as GuiConnection
 ```
 ![SAP Get Connection](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Get%20Connection%20Properties.PNG)
 
-  
+------------
 
-- **SAP Get Session**  
+>- **SAP Get Session**  
 ![SAP Get Session](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Get%20Session%20Form.PNG)
 
 ```
