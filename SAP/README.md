@@ -14,10 +14,7 @@ SAP Activities For Primo RPA Platform , used by API [Alefair.SAP.API](https://gi
 # 1.0.1
 
 - **SAP API Object**
-- 
 ![SAP API Object](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20API%20Object%20Form.PNG)
-
-![SAP API Object](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20API%20Object%20Properties.PNG)
 
 ```
 Get instance of SAP API Object
@@ -29,6 +26,7 @@ Timeout*: Timeout while SAP is loading
 [Output]
 SAP GUI object*: SAPAPI Object
 ```
+![SAP API Object](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20API%20Object%20Properties.PNG)
 
 
 - **SAP Get Connection**
