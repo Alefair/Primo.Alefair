@@ -42,9 +42,8 @@ SAP GUI object*: SAPAPI Object
 ![SAP API Object](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20API%20Object%20Properties.PNG)
 
 
-- **SAP Get Connection**
+- **SAP Get Connection**  
 ![SAP Get Connection](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Get%20Connection%20Form.PNG)
-![SAP Get Connection](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Get%20Connection%20Properties.PNG)
 
 ```
 Get SAP Connection by Id or connection number
@@ -55,11 +54,11 @@ Connection Id/number, by default - con[0]*: Number or Id of GuiConnection
 [Output]
 Connection*: Connection as GuiConnection
 ```
+![SAP Get Connection](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Get%20Connection%20Properties.PNG)
 
 
-- **SAP Get Session**
+- **SAP Get Session**  
 ![SAP Get Session](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Get%20Session%20Form.PNG)
-![SAP Get Session](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Get%20Session%20Properties.PNG)
 
 ```
 Get SAP Session by Id or connection number
@@ -71,42 +70,4 @@ Session Id/number, by default - ses[0]*: Number or Id Of GuiSession
 [Output]
 Session*: Session as GuiSession
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-- **SAP Connect**
-![SAP Connect](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Connect%20Form.PNG)
-![SAP Connect](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Connect%20Properties.PNG)
-
-```
-Connect to SAP with Login and Password
-
-[Properties]
-User*: SAP Account
-Password*: Password of SAP Account
-Base Name*: Base name of Connection. From Main Page
-
-[Output]
-Connection*: Connection as GuiConnection
-```
-
-
-
-- SAP Get Connection
-- SAP Get Session
-
-
-
-- SAP Extract Table
-- SAP Open Transaction
-- SAP Click
-- SAP Enter
+![SAP Get Session](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Get%20Session%20Properties.PNG)
