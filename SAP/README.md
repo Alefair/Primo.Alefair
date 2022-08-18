@@ -76,6 +76,8 @@ Session*: Session as GuiSession
 
 ------------
 
+# 1.0.2
+
 > **SAP Connect**  
 ![SAP Connect](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Connect%20Form.PNG)
 
@@ -93,6 +95,8 @@ Connection*: Connection as GuiConnection
 ![SAP Connect](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Connect%20Properties.PNG)
 
 ------------
+
+# 1.0.3
 
 > **SAP Extract Table**  
 ![SAP Extract Table](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Extract%20Table%20Form.PNG)
