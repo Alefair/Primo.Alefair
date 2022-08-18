@@ -2,7 +2,7 @@
 # Primo.Alefair.SAP
 
 ```
-SAP Activities For Primo RPA Platform , used by API [Alefair.SAP.API](https://github.com/Alefair/C-Nugets/tree/main/Alefair.SAP.API)
+SAP Activities For Primo RPA Platform , used by API Alefair.SAP.API - https://github.com/Alefair/C-Nugets/tree/main/Alefair.SAP.API
 ```
 
 >Current version **[1.0.3](https://github.com/Alefair/Primo.Alefair/blob/main/SAP/Packages/Primo.Alefair.SAP.1.0.3.nupkg)**
@@ -10,7 +10,7 @@ SAP Activities For Primo RPA Platform , used by API [Alefair.SAP.API](https://gi
 
 >[nuget](https://www.nuget.org/packages/Primo.Alefair.SAP/1.0.3) on https://www.nuget.org
 
-- [x] ![logo](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/saplogo_ico.png) SAP API Object
+- [x] ![logo](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/saplogo_ico.png =20x40) SAP API Object
 - [x] SAP Get Connection
 - [x] SAP Get Session
 - [x] SAP Connect
