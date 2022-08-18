@@ -10,9 +10,18 @@ SAP Activities For Primo RPA Platform , used by API [Alefair.SAP.API](https://gi
 
 >[nuget](https://www.nuget.org/packages/Alefair.SAP.API/1.0.4) on https://www.nuget.org
 
-- [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
+- [x] SAP API Object
+- [x] SAP Get Connection
+- [x] SAP Get Session
+- [x] SAP Connect
+- [x] SAP Extract Table
+- [ ] SAP Open Transaction
+- [ ] SAP Get Cell Value
+- [ ] SAP Get Title
+- [ ] SAP Get Status
+- [ ] SAP Click
+- [ ] SAP Close Session
+- [ ] SAP Close Connection
 
 ------------
 # 1.0.1
