@@ -10,6 +10,10 @@ SAP Activities For Primo RPA Platform , used by API [Alefair.SAP.API](https://gi
 
 >[nuget](https://www.nuget.org/packages/Alefair.SAP.API/1.0.4) on https://www.nuget.org
 
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
+
 ------------
 # 1.0.1
 
