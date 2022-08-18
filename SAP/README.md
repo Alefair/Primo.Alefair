@@ -10,7 +10,7 @@ SAP Activities For Primo RPA Platform , used by API Alefair.SAP.API - https://gi
 
 >[nuget](https://www.nuget.org/packages/Primo.Alefair.SAP/1.0.3) on https://www.nuget.org
 
-- [x] [[https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/saplogo_ico.png|width=20px]] SAP API Object
+- [x] SAP API Object
 - [x] SAP Get Connection
 - [x] SAP Get Session
 - [x] SAP Connect
