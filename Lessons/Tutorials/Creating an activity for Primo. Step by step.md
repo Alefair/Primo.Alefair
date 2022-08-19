@@ -84,3 +84,25 @@ Usually they can be found in the folder where Primo installed
 ![Chema](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/Chema.PNG)
 
 ![Position](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/Position.PNG)
+
+
+Double Click On **MyFirstActivity_Form.xaml** and let's create 2 columns and 2 rows. Let's display the grid -> Grid property -> **ShowGridLines="True"**
+
+Just replace new Grid this code:
+
+```csharp
+  <Grid x:Name="MyFirstActivity_Form_grd" 
+            VerticalAlignment="Center" 
+            HorizontalAlignment="Center" 
+            ShowGridLines="True"
+  >
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition></ColumnDefinition>
+        <ColumnDefinition></ColumnDefinition>
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+        <RowDefinition></RowDefinition>
+        <RowDefinition></RowDefinition>
+    </Grid.RowDefinitions>
+  </Grid>
+```
