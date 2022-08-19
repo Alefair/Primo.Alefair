@@ -127,18 +127,21 @@ Grid Grid.Row="0" Grid.Column="0"
 ```
 > We have created a grid for the first column of the first row and we want to insert a picture here.
 
+<br><br>
 
 ```
 Source="pack://application:,,/User.My.Activity;component/Images/eye_logo.png"
 ```
 > Path to image, It consists of the name of the library(**User.My.Activity**) and the path inside the library(**Images/eye_logo.png"**)
 
+<br><br>
 
 ```
 Height="80" and Width="80"
 ```
 > New size of Picture
 
+<br><br>
 
 ```
 Margin="5,5,5,5"
