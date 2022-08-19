@@ -452,6 +452,9 @@ public string Out_Argument
 
 <br><br>
 
+![Code_1](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/Code_1.PNG)
+
+<br><br>
 
 - ### [PROPERTIES][TYPES]
 > Here we describe all the activity in full: what will be the name, what will be the icon, the Activity Help, what type of editor will the arguments have, etc...
@@ -542,7 +545,9 @@ public MyFirstActivity(IWFContainer container) : base(container)
 
 <br><br>
 
+![Code_2](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/Code_2.PNG)
 
+<br><br>
 
 - ### [EXECUTION]
 > The main block where all activity and executions take place
