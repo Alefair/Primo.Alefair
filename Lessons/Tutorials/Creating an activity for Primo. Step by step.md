@@ -68,4 +68,4 @@ Usually they can be found in the folder where Primo installed
 - ### Package naming preparation:
   - Expand Properties and double click on AssemblyInfo.cs
   - Fill in the fields as in the picture:
-  ![Assembly](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/Assembly.PNG)
+  ![Assembly ](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/Assembly.PNG)
