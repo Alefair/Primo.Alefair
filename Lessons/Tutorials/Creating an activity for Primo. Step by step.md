@@ -77,7 +77,7 @@ Usually they can be found in the folder where Primo installed
 - ### Package naming preparation:
   - Expand Properties and double click on AssemblyInfo.cs
   - Fill in the fields as in the picture:
-  ![Assembly ](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/Assemblys.PNG)
+  ![Assembly ](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/Assembly.PNG)
 
 ------------
   
@@ -363,15 +363,20 @@ namespace Primo.My.Activity.Activities
 
 ```
 
-![CleanCode](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/CleanCodes.PNG)
+![CleanCode](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/CleanCode.PNG)
 
 <br><br>
 
 - ### [GROUP NAME]
->
+> The name of the group that will be displayed in the Primo Studio activity tree
 
 ```csharp
-
+public override string GroupName
+{
+    get => "My{\\}MyFirstActivity";
+    protected set { }
+}
 
 ```
 
+<br><br>
