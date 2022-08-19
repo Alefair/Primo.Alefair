@@ -73,7 +73,7 @@ Usually they can be found in the folder where Primo installed
 
 ------------
   
-## Great, let's write our first activity design!  
+## 3. Great, let's write our first activity design!  
 
 - Right Click on **Activities** -> Add -> New Item... -> Choose **C# Class** -> Name: **MyFirstActivity.cs** -> Add
 
@@ -247,4 +247,112 @@ And Full grid:
 And Result:
 
 ![RenderActivity](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/RenderActivity.PNG)
+
+------------
+
+## 4. Lets codding!
+
+> Well, it's going to be very interesting now! :)
+
+Open **MyFirstActivity.cs** and and create an activity structure:
+
+- ### Add Namespaces
+
+```csharp
+using LTools.Common.Helpers;
+using LTools.Common.Model;
+using LTools.Common.UIElements;
+using LTools.Common.WFItems;
+using LTools.SDK;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+```
+
+<br><br>
+
+Change class to **public class MyFirstActivity : PrimoComponentSimple<Design.MyFirstActivity_Form>**
+
+<br><br>
+
+And create an activity structure:
+- GROUP NAME
+- GLOBAL VARIABLE
+- PROPERTIES
+- PROPERTIES TYPE
+- EXECUTION
+- VALIDATE
+- ADVANCED
+
+<>br<br>
+
+Full code:
+
+```csharp
+using LTools.Common.Helpers;
+using LTools.Common.Model;
+using LTools.Common.UIElements;
+using LTools.Common.WFItems;
+using LTools.SDK;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+
+namespace User.My.Activity.Activities
+{
+    public class MyFirstActivity : PrimoComponentSimple<Design.MyFirstActivity_Form>
+    {
+        #region [GROUP NAME]
+        ///----------------------------------------------
+        /// GROUP NAME
+        #endregion
+
+
+        #region [GLOBAL VARIABLE]
+        ///----------------------------------------------
+        /// GLOBAL VARIABLE
+        #endregion
+
+
+        #region [PROPERTIES]
+        ///----------------------------------------------
+        /// PROPERTIES
+        #endregion
+
+
+        #region [PROPERTIES][TYPES]
+        ///----------------------------------------------
+        /// PROPERTIES TYPES
+        #endregion
+
+
+        #region [EXECUTION]
+        ///----------------------------------------------
+        /// EXECUTION
+        #endregion
+
+
+        #region [VALIDATE]
+        ///----------------------------------------------
+        /// VALIDATE
+        #endregion
+
+
+        #region [ADVANCED]
+        ///----------------------------------------------
+        /// ADVANCED
+        #endregion
+    }
+}
+
+```
+
 
