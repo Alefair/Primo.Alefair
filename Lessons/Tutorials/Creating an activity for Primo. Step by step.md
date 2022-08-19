@@ -116,8 +116,8 @@ Okay, Column Definitions and Row Definitions Exists, then under **</Grid.RowDefi
 <Grid Grid.Row="0" Grid.Column="0">
   <Image HorizontalAlignment="Left" 
          Source="pack://application:,,/User.My.Activity;component/Images/eye_logo.png"
-         Height="80"
-         Width="80"
+         Height="40"
+         Width="40"
          Margin="5,5,5,5"
   />
 </Grid>
@@ -142,7 +142,7 @@ Source="pack://application:,,/User.My.Activity;component/Images/eye_logo.png"
 <br><br>
 
 ```javascript
-Height="80" and Width="80"
+Height="40" and Width="40"
 ```
 > New size of Picture
 
@@ -206,8 +206,8 @@ And Full grid:
     <Grid Grid.Row="0" Grid.Column="0">
         <Image HorizontalAlignment="Left" 
              Source="pack://application:,,/User.My.Activity;component/Images/eye_logo.png"
-             Height="80"
-             Width="80"
+             Height="40"
+             Width="40"
              Margin="5,5,5,5"
         />
     </Grid>
@@ -223,3 +223,27 @@ And Full grid:
     </Grid>
 </Grid>
 ```
+
+![DesignActivity](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/DesignActivity.PNG)
+
+<br><br>
+
+**And First Build!**
+-> Solution Explorer
+-> Right Click **"Solution 'User.My.Activity'"**
+-> Clean Solution
+-> Build Solution
+
+![Build](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/Build.PNG)
+
+<br><br>
+
+*Check in output 1 Successed!*
+
+![BuildSuccess](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/BuildSuccess.PNG)
+
+<br><br>
+
+And Result:
+
+![RenderActivity](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/RenderActivity.PNG)
