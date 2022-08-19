@@ -73,7 +73,7 @@ Usually they can be found in the folder where Primo installed
 
 ------------
   
-## Great, let's write our first activity!  
+## Great, let's write our first activity design!  
 
 - Right Click on **Activities** -> Add -> New Item... -> Choose **C# Class** -> Name: **MyFirstActivity.cs** -> Add
 
@@ -106,3 +106,41 @@ Just replace new Grid this code:
     </Grid.RowDefinitions>
   </Grid>
 ```
+
+Okay, Column Definitions and Row Definitions Exists, then under **</Grid.RowDefinitions>** add a picture:
+
+```html
+<Grid Grid.Row="0" Grid.Column="0">
+  <Image HorizontalAlignment="Left" 
+         Source="pack://application:,,/User.My.Activity;component/Images/eye_logo.png"
+         Height="80"
+         Width="80"
+         Margin="5,5,5,5"
+  />
+</Grid>
+```
+
+**What's here?**
+
+```
+Grid Grid.Row="0" Grid.Column="0"
+```
+> We have created a grid for the first column of the first row and we want to insert a picture here.
+
+
+```
+Source="pack://application:,,/User.My.Activity;component/Images/eye_logo.png"
+```
+> Path to image, It consists of the name of the library(**User.My.Activity**) and the path inside the library(**Images/eye_logo.png"**)
+
+
+```
+Height="80" and Width="80"
+```
+> New size of Picture
+
+
+```
+Margin="5,5,5,5"
+```
+> This is margin from the border of the grid(Left, Top, Right, Bottom)
