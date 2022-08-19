@@ -452,3 +452,83 @@ public string Out_Argument
 > Here we describe all the activity in full: what will be the name, what will be the icon, the Activity Help, what type of editor will the arguments have, etc...
 
 ```csharp
+public MyFirstActivity(IWFContainer container) : base(container)
+{
+    sdkComponentIcon = "pack://application:,,/Primo.My.Activity;component/Images/eye_ico.png";
+
+    sdkComponentName = "My First Activity";
+    sdkComponentHelp = "In the activity, you can specify a path and it will be filled into a string variable";
+
+
+    ///[PROPERTIES]
+    ///
+    sdkComponentHelp += "\r\n" + "\r\n" + "[Properties]";
+
+
+    sdkComponentHelp += "\r\n"
+                     + nameof(In_Argument) + "*: "
+                     + "The Path";
+
+
+    ///[Output]
+    sdkComponentHelp += "\r\n" + "\r\n" + "[Output]";
+
+    sdkComponentHelp += "\r\n"
+                     + nameof(Out_Argument) + "*: "
+                     + "Variable for Set";
+
+
+
+    sdkProperties = new List<LTools.Common.Helpers.WFHelper.PropertiesItem>()
+    {
+        new LTools.Common.Helpers.WFHelper.PropertiesItem()
+        {
+            PropName = nameof(In_Argument),
+            PropertyType = LTools.Common.Helpers.WFHelper.PropertiesItem.PropertyTypes.SCRIPT,
+            EditorType = ScriptEditorTypes.NONE,
+            DataType = typeof(string),
+            ToolTip = nameof(In_Argument),
+            IsReadOnly = false
+        },
+
+
+        new LTools.Common.Helpers.WFHelper.PropertiesItem()
+        {
+            PropName = nameof(Out_Argument),
+            PropertyType = LTools.Common.Helpers.WFHelper.PropertiesItem.PropertyTypes.VARIABLE,
+            EditorType = ScriptEditorTypes.NONE,
+            DataType = typeof(string),
+            ToolTip = nameof(Out_Argument),
+            IsReadOnly = false
+        }
+    };
+
+    InitClass(container);
+
+
+
+    ///Create Instance of MyFirstActivity_Form
+    try
+    {
+        Design.MyFirstActivity_Form inputform = new Design.MyFirstActivity_Form();
+
+
+        this.cbase = inputform;
+        this.cbase.DataContext = (object)this;
+        WFElement wfElement = new WFElement((IWFElement)this, container);
+        this.element = wfElement;
+
+        this.element.Container = (FrameworkElement)this.cbase;
+
+    }
+    catch
+    {
+    }
+
+    ///Value by Default of "In_argument" argument
+    this.In_Argument = "\"Choose path...\"";
+}
+```
+
+<br><br>
+
