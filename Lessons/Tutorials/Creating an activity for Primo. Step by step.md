@@ -95,6 +95,8 @@ Just replace new Grid this code:
             VerticalAlignment="Center" 
             HorizontalAlignment="Center" 
             ShowGridLines="True"
+            Background="White"
+            
   >
     <Grid.ColumnDefinitions>
         <ColumnDefinition></ColumnDefinition>
@@ -150,3 +152,74 @@ Height="80" and Width="80"
 Margin="5,5,5,5"
 ```
 > This is margin from the border of the grid(Left, Top, Right, Bottom)
+
+<br><br>
+
+Next the second column of the first row, where we will have the name of our activity:
+
+```html
+<Grid rid.Row="0" Grid.Column="1">
+    <!-- Activity Name -->
+    <Label Content="My First Activity"/>
+</Grid>
+```
+
+<br><br>
+
+Next First Column and Second Row. Grid is Empty
+
+```html
+<Grid Grid.Row="1" Grid.Column="0">
+  <!-- Row 1 -->
+</Grid>
+```
+
+<br><br>
+
+And at the end, in the second column of the second row, we will add a grid and a button to it
+
+```
+<Grid  Grid.Row="1" Grid.Column="1">
+  <Button x:Name="Form_btn" Content="Open" />
+</Grid>
+```
+
+<br><br>
+
+And Full grid:
+
+```
+<Grid x:Name="MyFirstActivity_Form_grd" 
+      VerticalAlignment="Center" 
+      HorizontalAlignment="Center" 
+      ShowGridLines="True"
+      Background="White"
+>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition></ColumnDefinition>
+        <ColumnDefinition></ColumnDefinition>
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+        <RowDefinition></RowDefinition>
+        <RowDefinition></RowDefinition>
+    </Grid.RowDefinitions>
+    <Grid Grid.Row="0" Grid.Column="0">
+        <Image HorizontalAlignment="Left" 
+             Source="pack://application:,,/User.My.Activity;component/Images/eye_logo.png"
+             Height="80"
+             Width="80"
+             Margin="5,5,5,5"
+        />
+    </Grid>
+    <Grid Grid.Row="0" Grid.Column="1">
+        <!-- Activity Name -->
+        <Label Content="My First Activity"/>
+    </Grid>
+    <Grid Grid.Row="1" Grid.Column="0">
+        <!-- Row 1 -->
+    </Grid>
+    <Grid  Grid.Row="1" Grid.Column="1">
+        <Button x:Name="Form_btn" Content="Open" />
+    </Grid>
+</Grid>
+```
