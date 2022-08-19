@@ -288,7 +288,7 @@ And create an activity structure:
 - VALIDATE
 - ADVANCED
 
-<>br<br>
+<br><br>
 
 Full code:
 
@@ -355,4 +355,4 @@ namespace User.My.Activity.Activities
 
 ```
 
-
+![CleanCode](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/CleanCode.PNG)
