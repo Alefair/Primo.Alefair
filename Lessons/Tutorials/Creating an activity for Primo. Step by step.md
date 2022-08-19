@@ -83,4 +83,4 @@ Usually they can be found in the folder where Primo installed
   
 ![Chema](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/Chema.PNG)
 
-  
+![Position](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/Position.PNG)
