@@ -425,6 +425,8 @@ public string Out_Argument
 
 ```
 
+<br><br>
+
 **What's here?**
 
 ```javascript
@@ -445,3 +447,8 @@ public string Out_Argument
 
 <br><br>
 
+
+- ### [PROPERTIES][TYPES]
+> Here we describe all the activity in full: what will be the name, what will be the icon, the Activity Help, what type of editor will the arguments have, etc...
+
+```csharp
