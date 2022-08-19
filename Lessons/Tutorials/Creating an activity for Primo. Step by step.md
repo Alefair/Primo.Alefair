@@ -248,7 +248,7 @@ And Full grid:
 
 *Check in output 1 Successed!*
 
-![BuildSuccess](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/BuildSuccesss.PNG)
+![BuildSuccess](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/BuildSuccess.PNG)
 
 <br><br>
 
