@@ -18,7 +18,7 @@ Choice Project Template, need **Class Library (.NET Framework)**
 ![New Class](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/NewClass.PNG)
   
 Create new Project  
-![New Project](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/ProjectNames.PNG)  
+![New Project](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/ProjectName.PNG)  
  
  **Warning! The library name must begin with Primo...** - Primo.My.Activity
  
