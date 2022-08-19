@@ -517,7 +517,11 @@ public MyFirstActivity(IWFContainer container) : base(container)
         this.cbase.DataContext = (object)this;
         WFElement wfElement = new WFElement((IWFElement)this, container);
         this.element = wfElement;
-
+        
+        ///Create Event if Buttons is clicked
+        ///
+        this.cbase.Form_btn.Click += new RoutedEventHandler(this.MyFirstActivity_Form_btn_Click);
+        
         this.element.Container = (FrameworkElement)this.cbase;
 
     }
@@ -527,6 +531,87 @@ public MyFirstActivity(IWFContainer container) : base(container)
 
     ///Value by Default of "In_argument" argument
     this.In_Argument = "\"Choose path...\"";
+}
+```
+> **this.MyFirstActivity_Form_btn_Click** - method in **[ADVANCED]** block
+
+<br><br>
+
+
+
+- ### [EXECUTION]
+> The main block where all activity and executions take place
+
+```csharp
+public override ExecutionResult SimpleAction(ScriptingData sd)
+{
+    try
+    {
+        #region [VARIABLES][INIT]
+        string property_In_Argument = GetPropertyValue<string>(this.In_Argument, nameof(In_Argument), sd);
+
+        #endregion
+
+        #region [PROCESS]
+
+
+
+        #endregion
+
+        #region [OUTPUT]
+
+        WFHelper.AssignToVariable(
+            this.out_argument,
+            property_In_Argument,
+            property_In_Argument.GetType(),
+            sd.Variables
+        );
+
+        #endregion
+
+        ExecutionResult executionResult = new ExecutionResult();
+        executionResult.SuccessMessage = "Done";
+        executionResult.IsSuccess = true;
+
+        return executionResult;
+    }
+    catch (Exception ex)
+    {
+        ExecutionResult executionResult = new ExecutionResult();
+        executionResult.ErrorMessage = ex?.Message;
+        executionResult.IsSuccess = false;
+
+        return executionResult;
+    }
+}
+```
+
+<br><br>
+
+
+- ### [VALIDATE]
+> Here we check that all or part of our arguments are filled in or have a certain type
+
+```csharp
+public override ValidationResult Validate()
+{
+    ValidationResult ret = new ValidationResult();
+    if (System.String.IsNullOrEmpty(this.In_Argument)) ret.Items.Add(new ValidationResult.ValidationItem() { PropertyName = nameof(Out_Argument), Error = "It should not be empty!" });
+    return ret;
+}
+```
+
+<br><br>
+
+- ### [ADVANCED]
+> Here we create auxiliary functions necessary for work
+
+```csharp
+private void MyFirstActivity_Form_btn_Click(object sender, RoutedEventArgs e)
+{
+    Microsoft.Win32.OpenFileDialog openFileDlg = new Microsoft.Win32.OpenFileDialog();
+    openFileDlg.Filter = "Excel files (*.xls; *.xlsx)|*.xls;*.xlsx";
+    if (openFileDlg.ShowDialog() == true) this.In_Argument = "@\"" + openFileDlg.FileName + "\"";
 }
 ```
 
