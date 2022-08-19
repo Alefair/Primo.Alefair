@@ -1,6 +1,5 @@
 ![Activity](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/Activity.PNG)
 
-<br><br>
 
 # Creating an activity for Primo. Step by step
 ------------
