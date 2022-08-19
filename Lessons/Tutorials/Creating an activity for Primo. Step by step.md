@@ -395,13 +395,53 @@ private string out_argument;
 
 
 - ### [PROPERTIES]
-> We will need 3 variables: a reference to an instance of the MyFirstActivity_Form, a variable for input and a variable for output
+> These properties will be displayed in the properties window in Primo Studio
 
 ```csharp
-private Design.MyFirstActivity_Form cbase;
-private string in_argument;
-private string out_argument;
+///In_Argument
+/// 
+[LTools.Common.Model.Serialization.StoringProperty]
+[LTools.Common.Model.Studio.ValidateReturnScript(DataType = typeof(string))]
+[Category("In_Argument"), DisplayName("In_Argument")]
+[DefaultValue(0)]
+public string In_Argument
+{
+    get { return this.in_argument; }
+    set { this.in_argument = value; this.InvokePropertyChanged(this, nameof(In_Argument)); }
+}
+
+
+/// Out_Argument
+/// 
+[LTools.Common.Model.Serialization.StoringProperty]
+[LTools.Common.Model.Studio.ValidateReturnScript(DataType = typeof(string))]
+[Category("Out_Argument"), DisplayName("Out_Argument")]
+[DefaultValue(0)]
+public string Out_Argument
+{
+    get { return this.out_argument; }
+    set { this.out_argument = value; this.InvokePropertyChanged(this, nameof(Out_Argument)); }
+}
 
 ```
 
+**What's here?**
+
+```javascript
+[LTools.Common.Model.Studio.ValidateReturnScript(DataType = typeof(string))]
+```
+**DataType = typeof(string)**
+> The Primo Studio will check what type of value you are trying to enter
+
 <br><br>
+
+```javascript
+[Category("Out_Argument"), DisplayName("Out_Argument")]
+```
+**Category("Out_Argument")**
+> The category of the variable in which the argument will be displayed in the properties window
+**DisplayName("Out_Argument")**
+> The name of the argument to be displayed in the properties window
+
+<br><br>
+
