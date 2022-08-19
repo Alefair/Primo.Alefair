@@ -617,3 +617,24 @@ private void MyFirstActivity_Form_btn_Click(object sender, RoutedEventArgs e)
 
 <br><br>
 
+## 5. Final Building and nuget Package
+
+- Click Bulding
+- If Building is success, then go to Folder of Project
+- Open Primo.My.Activity\bin\Debug
+- Looking for a file Primo.My.Activity.dll and copy to Desktop
+- Open Nuget Package Explorer
+- Add lib Folder
+- Add to lib file Primo.My.Activity.dll and eye_nuget.png(from Images)
+- Fill in the fields
+
+<br><br>
+
+![Nuget](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/Nuget.PNG)
+
+- Save Nuget
+- Upload To Studio
+- And Use
+
+You are welcome! :-)
+
