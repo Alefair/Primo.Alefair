@@ -75,10 +75,10 @@ Usually they can be found in the folder where Primo installed
   
 ## Great, let's write our first activity!  
 
-Right Click on **Activities** -> Add -> New Item... -> Choose **C# Class** -> Name: MyFirstActivity.cs -> Add
+- Right Click on **Activities** -> Add -> New Item... -> Choose **C# Class** -> Name: MyFirstActivity.cs -> Add
 
-Next, Right Click on **Design** -> Add -> New Item... -> Choose **User Control (WPF)** -> Name: MyFirstActivity_Form.xaml -> Add
+- Next, Right Click on **Design** -> Add -> New Item... -> Choose **User Control (WPF)** -> Name: MyFirstActivity_Form.xaml -> Add
 
-Okay, Now let's do a little design and a little creativity
+> Okay, Now let's do a little design and a little creativity
 
-
+![Chema](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/Chema.PNG)
