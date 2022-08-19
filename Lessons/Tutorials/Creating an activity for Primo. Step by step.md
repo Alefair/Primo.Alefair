@@ -232,7 +232,7 @@ And Full grid:
 </Grid>
 ```
 
-![DesignActivity](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/DesignActivity.PNG)
+![DesignActivity](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/DesignActivitys.PNG)
 
 <br><br>
 
@@ -248,7 +248,7 @@ And Full grid:
 
 *Check in output 1 Successed!*
 
-![BuildSuccess](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/BuildSuccess.PNG)
+![BuildSuccess](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/BuildSuccesss.PNG)
 
 <br><br>
 
@@ -364,6 +364,20 @@ namespace Primo.My.Activity.Activities
 ```
 
 ![CleanCode](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/CleanCode.PNG)
+
+<br><br>
+
+- ### [GROUP NAME]
+> The name of the group that will be displayed in the Primo Studio activity tree
+
+```csharp
+public override string GroupName
+{
+    get => "My{\\}MyFirstActivity";
+    protected set { }
+}
+
+```
 
 <br><br>
 
