@@ -22,3 +22,17 @@ Create new Project
   
 ------------
 
+## 2. Project preparation
+
+window **Solution Explorer**
+
+- ### Add References:
+  - LTools.Common
+  - LTools.DTO
+  - LTools.Enums
+  - LTools.Scripting
+  - LTools.SDK
+
+Usually they can be found in the folder where Primo installed
+
+![References](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/References.PNG)
