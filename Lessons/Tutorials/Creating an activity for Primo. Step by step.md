@@ -7,7 +7,7 @@
 
 I will use Visual Studio Community. Download it if you haven't done it yet :) 
 
-And let's go...  
+**And let's go...  **
 
 ## 1. Start  
 
@@ -21,6 +21,7 @@ Create new Project
 ![New Project](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/ProjectName.PNG)  
  
  File Class1.cs needs to be deleted!
+
 ------------
 
 ## 2. Project preparation
@@ -69,3 +70,13 @@ Usually they can be found in the folder where Primo installed
   - Expand Properties and double click on AssemblyInfo.cs
   - Fill in the fields as in the picture:
   ![Assembly ](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/Assembly.PNG)
+
+------------
+  
+## Great, let's write our first activity!  
+
+Right Click on **Activities** -> Add -> New Item... -> Choose **C# Class** -> Name: MyFirstActivity.cs -> Add
+
+Next, Right Click on **Design** -> Add -> New Item... -> Choose **User Control (WPF)** -> Name: MyFirstActivity_Form.xaml -> Add
+
+Okay, now 
