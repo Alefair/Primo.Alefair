@@ -19,7 +19,8 @@ Choice Project Template, need **Class Library (.NET Framework)**
   
 Create new Project  
 ![New Project](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/ProjectName.PNG)  
-  
+ 
+ File Class1.cs needs to be deleted!
 ------------
 
 ## 2. Project preparation
@@ -59,6 +60,12 @@ Usually they can be found in the folder where Primo installed
   - -> Existing Item...
   - -> File Choice change to "All Files"
   - -> Сhoose downloaded images
-  - Every file -> Click -> Properties Window in Advanced Category choose "Resource" in **Buld Action**
+  - Every file -> Click -> Properties Window: in Advanced Category choose "Resource" in **Buld Action**
 
 ![Images](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/Images.PNG)
+
+
+- ### Package naming preparation:
+  - Expand Properties and double click on AssemblyInfo.cs
+  - Fill in the fields as in the picture:
+  ![Assembly](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/Assembly.PNG)
