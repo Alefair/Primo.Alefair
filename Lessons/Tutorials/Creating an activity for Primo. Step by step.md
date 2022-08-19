@@ -382,6 +382,8 @@ public override string GroupName
 
 ```
 
+![Tree](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/Tree.PNG)
+
 <br><br>
 
 - ### [GLOBAL VARIABLE]
