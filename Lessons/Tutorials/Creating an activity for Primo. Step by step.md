@@ -20,6 +20,8 @@ Choice Project Template, need **Class Library (.NET Framework)**
 Create new Project  
 ![New Project](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/ProjectName.PNG)  
  
+ **Warning! The library name must begin with Primo...** - Primo.My.Activity
+ 
  File Class1.cs needs to be deleted!
 
 ------------
@@ -135,9 +137,9 @@ Grid.Row="0" Grid.Column="0"
 <br><br>
 
 ```javascript
-Source="pack://application:,,/User.My.Activity;component/Images/eye_logo.png"
+Source="pack://application:,,/Primo.My.Activity;component/Images/eye_logo.png"
 ```
-> Path to image, It consists of the name of the library(**User.My.Activity**) and the path inside the library(**Images/eye_logo.png"**)
+> Path to image, It consists of the name of the library(**Primo.My.Activity**) and the path inside the library(**Images/eye_logo.png"**)
 
 <br><br>
 
@@ -205,7 +207,7 @@ And Full grid:
     </Grid.RowDefinitions>
     <Grid Grid.Row="0" Grid.Column="0">
         <Image HorizontalAlignment="Left" 
-             Source="pack://application:,,/User.My.Activity;component/Images/eye_logo.png"
+             Source="pack://application:,,/Primo.My.Activity;component/Images/eye_logo.png"
              Height="40"
              Width="40"
              Margin="5,5,5,5"
@@ -230,7 +232,7 @@ And Full grid:
 
 **And First Build!**
 -> Solution Explorer
--> Right Click **"Solution 'User.My.Activity'"**
+-> Right Click **"Solution 'Primo.My.Activity'"**
 -> Clean Solution
 -> Build Solution
 
@@ -306,7 +308,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace User.My.Activity.Activities
+namespace Primo.My.Activity.Activities
 {
     public class MyFirstActivity : PrimoComponentSimple<Design.MyFirstActivity_Form>
     {
@@ -360,6 +362,9 @@ namespace User.My.Activity.Activities
 <br><br>
 
 - ### [GROUP NAME]
+>
 
 ```csharp
+
+
 ```
