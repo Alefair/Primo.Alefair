@@ -51,3 +51,14 @@ Usually they can be found in the folder where Primo installed
   - [This](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Tutorials/Files/eye_ico.png)
   - [This](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Tutorials/Files/eye_logo.png)
   - [And This](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Tutorials/Files/eye_nuget.png)
+
+
+- ### Upload images To Project:
+  - Right mouse click on Images Folder
+  - -> Add
+  - -> Existing Item...
+  - -> File Choice change to "All Files"
+  - -> Сhoose downloaded images
+  - Every file -> Click -> Properties Window in Advanced Category choose "Resource" in **Buld Action**
+
+![Images](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/Images.PNG)
