@@ -157,7 +157,7 @@ Margin="5,5,5,5"
 
 Next the second column of the first row, where we will have the name of our activity:
 
-```html
+```javascript
 <Grid rid.Row="0" Grid.Column="1">
     <!-- Activity Name -->
     <Label Content="My First Activity"/>
@@ -168,7 +168,7 @@ Next the second column of the first row, where we will have the name of our acti
 
 Next First Column and Second Row. Grid is Empty
 
-```html
+```javascript
 <Grid Grid.Row="1" Grid.Column="0">
   <!-- Row 1 -->
 </Grid>
@@ -178,7 +178,7 @@ Next First Column and Second Row. Grid is Empty
 
 And at the end, in the second column of the second row, we will add a grid and a button to it
 
-```
+```javascript
 <Grid  Grid.Row="1" Grid.Column="1">
   <Button x:Name="Form_btn" Content="Open" />
 </Grid>
@@ -188,7 +188,7 @@ And at the end, in the second column of the second row, we will add a grid and a
 
 And Full grid:
 
-```
+```javascript
 <Grid x:Name="MyFirstActivity_Form_grd" 
       VerticalAlignment="Center" 
       HorizontalAlignment="Center" 
