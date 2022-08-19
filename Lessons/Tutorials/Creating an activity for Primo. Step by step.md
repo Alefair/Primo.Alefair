@@ -36,3 +36,18 @@ window **Solution Explorer**
 Usually they can be found in the folder where Primo installed
 
 ![References](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/References.PNG)
+  
+  
+  
+- ### Create Folders:
+  - **Activities**
+  - **Design**
+  - **Images**
+  - Resources(optional)
+
+![References](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/Folders.PNG)
+
+- ### Downloads images:
+  - [This](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Tutorials/Files/eye_ico.png)
+  - [This](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Tutorials/Files/eye_logo.png)
+  - [And This](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Tutorials/Files/eye_nuget.png)
