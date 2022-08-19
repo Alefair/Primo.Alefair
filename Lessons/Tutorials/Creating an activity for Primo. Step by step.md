@@ -247,3 +247,4 @@ And Full grid:
 And Result:
 
 ![RenderActivity](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/RenderActivity.PNG)
+
