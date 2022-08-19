@@ -232,7 +232,7 @@ And Full grid:
 </Grid>
 ```
 
-![DesignActivity](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/DesignActivitys.PNG)
+![DesignActivity](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/DesignActivity.PNG)
 
 <br><br>
 
@@ -381,15 +381,26 @@ public override string GroupName
 
 <br><br>
 
-- ### [GROUP NAME]
-> The name of the group that will be displayed in the Primo Studio activity tree
+- ### [GLOBAL VARIABLE]
+> We will need 3 variables: a reference to an instance of the MyFirstActivity_Form, a variable for input and a variable for output
 
 ```csharp
-public override string GroupName
-{
-    get => "My{\\}MyFirstActivity";
-    protected set { }
-}
+private Design.MyFirstActivity_Form cbase;
+private string in_argument;
+private string out_argument;
+
+```
+
+<br><br>
+
+
+- ### [PROPERTIES]
+> We will need 3 variables: a reference to an instance of the MyFirstActivity_Form, a variable for input and a variable for output
+
+```csharp
+private Design.MyFirstActivity_Form cbase;
+private string in_argument;
+private string out_argument;
 
 ```
 
