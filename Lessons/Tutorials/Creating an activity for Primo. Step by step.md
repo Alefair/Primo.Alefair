@@ -106,6 +106,7 @@ Just replace new Grid this code:
     </Grid.RowDefinitions>
   </Grid>
 ```
+<br><br>
 
 Okay, Column Definitions and Row Definitions Exists, then under **</Grid.RowDefinitions>** add a picture:
 
@@ -119,6 +120,8 @@ Okay, Column Definitions and Row Definitions Exists, then under **</Grid.RowDefi
   />
 </Grid>
 ```
+
+<br><br>
 
 **What's here?**
 
