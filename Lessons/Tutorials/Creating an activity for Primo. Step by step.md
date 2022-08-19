@@ -90,7 +90,7 @@ Double Click On **MyFirstActivity_Form.xaml** and let's create 2 columns and 2 r
 
 Just replace new Grid this code:
 
-```csharp
+```html
   <Grid x:Name="MyFirstActivity_Form_grd" 
             VerticalAlignment="Center" 
             HorizontalAlignment="Center" 
