@@ -13,16 +13,22 @@ I will use Visual Studio Community. Download it if you haven't done it yet :)
 
 Create new Project  
 ![Start](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/Start.PNG)
-  
+
+<br><br>
+
 Choice Project Template, need **Class Library (.NET Framework)**  
 ![New Class](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/NewClass.PNG)
-  
+ 
+<br><br>
+ 
 Create new Project  
 ![New Project](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/ProjectName.PNG)  
+
+<br><br>
+
+**Warning! The library name must begin with Primo...** - Primo.My.Activity
  
- **Warning! The library name must begin with Primo...** - Primo.My.Activity
- 
- File Class1.cs needs to be deleted!
+File Class1.cs needs to be deleted!
 
 ------------
 
