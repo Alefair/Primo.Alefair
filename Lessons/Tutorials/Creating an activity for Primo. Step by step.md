@@ -7,7 +7,7 @@
 
 I will use Visual Studio Community. Download it if you haven't done it yet :) 
 
-**And let's go...  **
+**And let's go...**
 
 ## 1. Start  
 
@@ -79,4 +79,6 @@ Right Click on **Activities** -> Add -> New Item... -> Choose **C# Class** -> Na
 
 Next, Right Click on **Design** -> Add -> New Item... -> Choose **User Control (WPF)** -> Name: MyFirstActivity_Form.xaml -> Add
 
-Okay, now 
+Okay, Now let's do a little design and a little creativity
+
+
