@@ -356,3 +356,10 @@ namespace User.My.Activity.Activities
 ```
 
 ![CleanCode](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/CleanCode.PNG)
+
+<br><br>
+
+- ### [GROUP NAME]
+
+```csharp
+```
