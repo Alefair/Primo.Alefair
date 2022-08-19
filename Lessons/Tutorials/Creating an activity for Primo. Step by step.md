@@ -363,7 +363,7 @@ namespace Primo.My.Activity.Activities
 
 ```
 
-![CleanCode](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/CleanCode.PNG)
+![CleanCode](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/CleanCodes.PNG)
 
 <br><br>
 
