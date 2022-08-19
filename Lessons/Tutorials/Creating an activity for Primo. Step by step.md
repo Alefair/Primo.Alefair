@@ -125,28 +125,28 @@ Okay, Column Definitions and Row Definitions Exists, then under **</Grid.RowDefi
 
 **What's here?**
 
-```xaml
+```javascript
 Grid.Row="0" Grid.Column="0"
 ```
 > We have created a grid for the first column of the first row and we want to insert a picture here.
 
 <br><br>
 
-```xaml
+```javascript
 Source="pack://application:,,/User.My.Activity;component/Images/eye_logo.png"
 ```
 > Path to image, It consists of the name of the library(**User.My.Activity**) and the path inside the library(**Images/eye_logo.png"**)
 
 <br><br>
 
-```xaml
+```javascript
 Height="80" and Width="80"
 ```
 > New size of Picture
 
 <br><br>
 
-```xaml
+```javascript
 Margin="5,5,5,5"
 ```
 > This is margin from the border of the grid(Left, Top, Right, Bottom)
