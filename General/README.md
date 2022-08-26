@@ -8,7 +8,7 @@ Activities For Primo RPA Platform Powered by Alefair
 >Current version **[1.0.2](https://github.com/Alefair/Primo.Alefair/blob/main/General/Packages/Primo.Alefair.General.1.0.2.nupkg)**
 >
 
->[nuget](https://www.nuget.org/packages/Primo.Alefair.General/1.0.1) on https://www.nuget.org
+>[nuget](https://www.nuget.org/packages/Primo.Alefair.General/1.0.2) on https://www.nuget.org
 
 - [x] Get Asset
 - [x] Read Config From Excel
