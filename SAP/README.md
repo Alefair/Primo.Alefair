@@ -117,3 +117,78 @@ Column Type*: Depending on the selected column type, the column names will chang
 Result*: Result
 ```
 ![SAP Extract Table](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Extract%20Table%20Properties.PNG)
+
+------------
+
+# 1.0.4
+
+> **SAP Click**  
+![SAP Click](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Click%20Form.PNG)
+
+```
+Generate Click or Double Click. Avaible: button, current row, check box, radio button
+
+[Properties]
+Session*: If only Number of session, then connection by default - con[0]. If empty by default ses[0]
+Selector*: "wnd[0]/tbar[1]/btn[8]"
+Click Type*: Click or DoubleClick
+```
+![SAP Click](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Click%20Properties.PNG)
+
+------------
+
+> **SAP Element Focus**  
+![SAP Element Focus](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Element%20Focus%20Form.PNG)
+
+```
+Generate Focus State For Element
+
+[Properties]
+Session*: If only Number of session, then connection by default - con[0]. If empty by default ses[0]
+Selector*: "wnd[0]/usr/txtENAME-LOW"
+Extended*: Extended
+Table Select Type*: 
+ - SelectRows: Extended: "12, 13..." 
+ - SelectColumns: Extended: "COLUMN_NAME" 
+ - SelectCell: Extended: "13, COLUMN_NAME" 
+ - SelectAll: Extended: ""
+```
+![SAP Element Focus](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Element%20Focus%20Properties.PNG)
+
+------------
+
+> **SAP Get Text**  
+![SAP Get Text](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Get%20Text%20Form.PNG)
+
+```
+Get text from GuiComponent 
+ Avaible GuiShell get text from cell
+
+[Properties]
+Session*: If only Number of session, then connection by default - con[0]. If empty by default ses[0]
+Selector*: "wnd[0]/usr/ctxtS_VBELN-LOW"
+Extended*: Extended for GuiShell. For Example: ~ "12, COLUMN_NAME"
+
+[Output]
+Result*: Result
+```
+![SAP Get Text](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Get%20Text%20Properties.PNG)
+
+------------
+
+> **SAP Set Text**  
+![SAP Set Text](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Set%20Text%20Form.PNG)
+
+```
+Set text of GuiComponent 
+ Avaible GuiShell set text into cell
+
+[Properties]
+Session*: If only Number of session, then connection by default - con[0]. If empty by default ses[0]
+Selector*: "wnd[0]/usr/ctxtS_VBELN-LOW"
+Value*: Value
+Extended*: Extended for GuiShell. For Example: ~ "12, COLUMN_NAME"
+```
+![SAP Set Text](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Set%20Text%20Properties.PNG)
+
+------------
