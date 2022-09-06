@@ -5,21 +5,24 @@
 SAP Activities For Primo RPA Platform , used by API Alefair.SAP.API - https://github.com/Alefair/C-Nugets/tree/main/Alefair.SAP.API
 ```
 
->Current version **[1.0.3](https://github.com/Alefair/Primo.Alefair/blob/main/SAP/Packages/Primo.Alefair.SAP.1.0.3.nupkg)**
+>Current version **[1.0.4](https://github.com/Alefair/Primo.Alefair/blob/main/SAP/Packages/Primo.Alefair.SAP.1.0.4.nupkg)**
 >
 
->[nuget](https://www.nuget.org/packages/Primo.Alefair.SAP/1.0.3) on https://www.nuget.org
+>[nuget](https://www.nuget.org/packages/Primo.Alefair.SAP/1.0.4) on https://www.nuget.org
 
 - [x] SAP API Object
 - [x] SAP Get Connection
 - [x] SAP Get Session
 - [x] SAP Connect
 - [x] SAP Extract Table
+- [x] SAP Click
+- [x] SAP Element Focus
+- [x] SAP Get Text
+- [x] SAP Set Text
 - [ ] SAP Open Transaction
 - [ ] SAP Get Cell Value
 - [ ] SAP Get Title
 - [ ] SAP Get Status
-- [ ] SAP Click
 - [ ] SAP Close Session
 - [ ] SAP Close Connection
 
