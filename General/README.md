@@ -82,7 +82,7 @@ Config*: Config as Dictionary<string, object>
 # 1.0.5
 
 > **Read Config From Excel(updated)**  
-![Read Config From Excel](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/General/Images/ReadConfig_Activity.PNG)
+![Read Config From Excel](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/General/Images/ReadConfig_Form.PNG)
 
 ```
 Read data from excel to Dictionary
