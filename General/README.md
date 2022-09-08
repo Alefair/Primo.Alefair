@@ -5,10 +5,10 @@
 Activities For Primo RPA Platform Powered by Alefair
 ```
 
->Current version **[1.0.2](https://github.com/Alefair/Primo.Alefair/blob/main/General/Packages/Primo.Alefair.General.1.0.2.nupkg)**
+>Current version **[1.0.5](https://github.com/Alefair/Primo.Alefair/blob/main/General/Packages/Primo.Alefair.General.1.0.5.nupkg)**
 >
 
->[nuget](https://www.nuget.org/packages/Primo.Alefair.General/1.0.2) on https://www.nuget.org
+>[nuget](https://www.nuget.org/packages/Primo.Alefair.General/1.0.5) on https://www.nuget.org
 
 - [x] Get Asset
 - [x] Read Config From Excel
@@ -75,5 +75,31 @@ Path*: Path
 Config*: Config as Dictionary<string, object>
 ```
 ![Read Config From Excel](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/General/Images/ReadConfig_Properties2.PNG)
+
+------------
+
+
+# 1.0.5
+
+> **Read Config From Excel(updated)**  
+![Read Config From Excel](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/General/Images/ReadConfig_Activity.PNG)
+
+```
+Read data from excel to Dictionary
+
+[Properties]
+Assets Sheet is Assets*: If Sheet Assets is Exist then Varables as Assets
+NumberFormat*: NumberFormat as type in VBA
+Column Variable Name*: Column name of Variable Name
+Column Variable Value*: Column name of Variable Value
+Column Asset Name*: Column name of Asset Name
+List of Sheets Names*: List of Sheets Names where varables exist
+Json Asset To Dictionary*: Json value of asset put to dictionary
+Path*: Path
+
+[Output]
+Config*: Config as Dictionary<string, object>
+```
+![Read Config From Excel](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/General/Images/ReadConfig_Properties3.PNG)
 
 ------------
