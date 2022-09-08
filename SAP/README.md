@@ -5,10 +5,10 @@
 SAP Activities For Primo RPA Platform , used by API Alefair.SAP.API - https://github.com/Alefair/C-Nugets/tree/main/Alefair.SAP.API
 ```
 
->Current version **[1.0.4](https://github.com/Alefair/Primo.Alefair/blob/main/SAP/Packages/Primo.Alefair.SAP.1.0.4.nupkg)**
+>Current version **[1.0.5](https://github.com/Alefair/Primo.Alefair/blob/main/SAP/Packages/Primo.Alefair.SAP.1.0.5.nupkg)**
 >
 
->[nuget](https://www.nuget.org/packages/Primo.Alefair.SAP/1.0.4) on https://www.nuget.org
+>[nuget](https://www.nuget.org/packages/Primo.Alefair.SAP/1.0.5) on https://www.nuget.org
 
 - [x] SAP API Object
 - [x] SAP Get Connection
@@ -19,10 +19,10 @@ SAP Activities For Primo RPA Platform , used by API Alefair.SAP.API - https://gi
 - [x] SAP Element Focus
 - [x] SAP Get Text
 - [x] SAP Set Text
-- [ ] SAP Open Transaction
+- [x] SAP Open Transaction
+- [x] SAP Get Title
+- [x] SAP Get Status
 - [ ] SAP Get Cell Value
-- [ ] SAP Get Title
-- [ ] SAP Get Status
 - [ ] SAP Close Session
 - [ ] SAP Close Connection
 
@@ -190,5 +190,57 @@ Value*: Value
 Extended*: Extended for GuiShell. For Example: ~ "12, COLUMN_NAME"
 ```
 ![SAP Set Text](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Set%20Text%20Properties.PNG)
+
+------------
+
+
+# 1.0.5
+
+> **SAP Open Transaction**  
+![SAP Open Transaction](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Open%20Transaction%20Form.PNG)
+
+```
+Open SAP Transaction by name
+
+[Properties]
+Session*: If only Number of session, then connection by default - con[0]. If empty by default ses[0]
+
+Transaction*: Open SAP Transaction by name
+```
+![SAP Open Transaction](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Open%20Transaction%20Properties.PNG)
+
+------------
+
+
+> **SAP Get Status**  
+![SAP Get Status](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Get%20Status%20Form.PNG)
+
+```
+Get text from status bar of session window
+
+[Properties]
+Session*: If only Number of session, then connection by default - con[0]. If empty by default ses[0]
+
+[Output]
+Result*: Result
+```
+![SAP Get Status](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Get%20Status%20Properties.PNG)
+
+------------
+
+
+> **SAP Get Title**  
+![SAP Get Title](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Get%20Title%20Form.PNG)
+
+```
+Get text from title of session window
+
+[Properties]
+Session*: If only Number of session, then connection by default - con[0]. If empty by default ses[0]
+
+[Output]
+Result*: Result
+```
+![SAP Get Title](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Get%20Title%20Properties.PNG)
 
 ------------
