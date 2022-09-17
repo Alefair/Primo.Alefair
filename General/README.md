@@ -132,7 +132,7 @@ HTML Table*: HTML Table use as html element <table></table>
 
 In out -> html code:
 
-```
+```html
 <div style="width:1300px;padding:10px;">
   <span style="padding: 10px;border: 1px solid #ffcdd2;color: #f44336;font-size: 11pt;font-family: Tahoma;width:200px;display: block;">Table 1</span>
   <table border="1" cellpadding="10" cellspacing="10" bordercolor="#ffcdd2" width="100%" style="margin: 0;text-decoration: none;color: #979797;font-size: 11pt;font-family: Tahoma;border-collapse: collapse;"> 
