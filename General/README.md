@@ -2,16 +2,22 @@
 # Primo.Alefair.General
 
 ```
-Activities For Primo RPA Platform Powered by Alefair
+Activities For Primo RPA Platform Powered by Alefair. Based by Alefair.Extended.Methods
 ```
 
->Current version **[1.0.6](https://github.com/Alefair/Primo.Alefair/blob/main/General/Packages/Primo.Alefair.General.1.0.6.nupkg)**
+>Current version **[1.0.7](https://github.com/Alefair/Primo.Alefair/blob/main/General/Packages/Primo.Alefair.General.1.0.7.nupkg)**
 >
 
->[nuget](https://www.nuget.org/packages/Primo.Alefair.General/1.0.6) on https://www.nuget.org
+>[nuget](https://www.nuget.org/packages/Primo.Alefair.General/1.0.7) on https://www.nuget.org
 
 - [x] Get Asset
 - [x] Read Config From Excel
+
+- [x] HTML Table Creator
+
+- [x] Read CSV
+- [x] Write CSV
+- [x] Append CSV
 
 ------------
 # 1.0.1
@@ -161,5 +167,61 @@ In out -> html code:
 ```
 
 ![HTML Table Creator](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/General/Images/HTML%20Table%20Creator%20Example.PNG)
+
+------------
+
+
+# 1.0.7
+
+> **Read CSV**  
+![Read CSV](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/General/Images/Read%20CSV%20Form.PNG)
+
+```
+Read data from csv file to DataTable Object
+
+[Properties]
+Path*: Path
+Encoding*: Encoding of file. by default: "UTF-8"
+Delimiter*: Dilimiter in file, for example ";"
+Has Headers*: If first row in file is columns names than Enable option
+Ignore Quotes*: Ignore quotes in file of value
+
+[Output]
+Data Table*: Result as DataTable object
+```
+![Read CSV](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/General/Images/Read%20CSV%20Properties.PNG)
+
+------------
+
+> **Write CSV**  
+![Write CSV](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/General/Images/Write%20CSV%20Form.PNG)
+
+```
+Create or Overwrite CSV file with data from DataTable object
+
+[Properties]
+Path*: Path
+Data Table*: Result as DataTable object
+Encoding*: Encoding of file. by default: "UTF-8"
+Delimiter*: Dilimiter in file, for example ";"
+Has Headers*: If first row in file is columns names than Enable option
+```
+![Write CSV](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/General/Images/Write%20CSV%20Properties.PNG)
+
+------------
+
+> **Append CSV**  
+![Append CSV](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/General/Images/Append%20CSV%20Form.PNG)
+
+```
+Add to end line of CSV file data from DataTable object
+
+[Properties]
+Path*: Path
+Data Table*: Result as DataTable object
+Encoding*: Encoding of file. by default: "UTF-8"
+Delimiter*: Dilimiter in file, for example ";"
+```
+![Append CSV](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/General/Images/Append%20CSV%20Properties.PNG)
 
 ------------
