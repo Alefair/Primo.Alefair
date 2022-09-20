@@ -5,10 +5,10 @@
 SAP Activities For Primo RPA Platform , used by API Alefair.SAP.API - https://github.com/Alefair/C-Nugets/tree/main/Alefair.SAP.API
 ```
 
->Current version **[1.0.5](https://github.com/Alefair/Primo.Alefair/blob/main/SAP/Packages/Primo.Alefair.SAP.1.0.5.nupkg)**
+>Current version **[1.0.6](https://github.com/Alefair/Primo.Alefair/blob/main/SAP/Packages/Primo.Alefair.SAP.1.0.6.nupkg)**
 >
 
->[nuget](https://www.nuget.org/packages/Primo.Alefair.SAP/1.0.5) on https://www.nuget.org
+>[nuget](https://www.nuget.org/packages/Primo.Alefair.SAP/1.0.6) on https://www.nuget.org
 
 - [x] SAP API Object
 - [x] SAP Get Connection
@@ -22,6 +22,7 @@ SAP Activities For Primo RPA Platform , used by API Alefair.SAP.API - https://gi
 - [x] SAP Open Transaction
 - [x] SAP Get Title
 - [x] SAP Get Status
+- [x] SAP Kill Saplogon
 - [ ] SAP Get Cell Value
 - [ ] SAP Close Session
 - [ ] SAP Close Connection
@@ -242,5 +243,21 @@ Session*: If only Number of session, then connection by default - con[0]. If emp
 Result*: Result
 ```
 ![SAP Get Title](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Get%20Title%20Properties.PNG)
+
+------------
+
+
+# 1.0.6
+
+> **SAP Kill Saplogon**  
+![SAP Kill Saplogon](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Kill%20Form.PNG)
+
+```
+Kill Saplogon
+
+[Properties]
+SAP GUI object*: SAP GUI as Instance of SAP GUI Object
+```
+![SAP Kill Saplogon](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/SAP/Images/SAP%20Kill%20Properties.PNG)
 
 ------------
