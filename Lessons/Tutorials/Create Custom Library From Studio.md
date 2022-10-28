@@ -99,7 +99,7 @@ Generate nuget package
 
 - Check Activity in Elements Window and add to project
 
-![Activity](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/Custom_Lib/16.PNG)
+![Activity](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/Custom_Lib/17.PNG)
 
 <br>
 
