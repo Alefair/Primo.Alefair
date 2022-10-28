@@ -39,7 +39,7 @@ Create Process
 
 For Example I added C# activity
 
-Created Arguments **ProcessName** and **Result**
+Created Arguments **ProcessName**, **ProcessID**, **ProcessTitle** and **Result**
 
 ![Add Activity](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/Custom_Lib/4.PNG)
 
