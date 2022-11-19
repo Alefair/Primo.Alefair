@@ -42,10 +42,10 @@ Open folder with your project
 
 ![zip](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/Custom_Template/5.PNG)
 
-- **icon.png**([Example]()). Only size 48x48 px. You can create, for example, here https://online-fotoshop.ru/
+- **icon.png**([Example](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Tutorials/Files/Projects/Create%20Template/icon.png)). Only size 48x48 px. You can create, for example, here https://online-fotoshop.ru/
 
 
-- **manifest.xml**([Example]()). Create file, as below:
+- **manifest.xml**([Example](https://github.com/Alefair/Primo.Alefair/blob/main/Lessons/Tutorials/Files/Projects/Create%20Template/manifest.xml)). Create file, as below:
 ![manifest](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/Custom_Template/6.PNG)
 
 
