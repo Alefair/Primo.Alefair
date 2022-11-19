@@ -51,9 +51,9 @@ Open folder with your project
 
 - Go to C:\Program Files\Primo\Primo Studio x64\ProjectTemplates and create folder with your template name
 ![Template Folder](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/Custom_Template/7.PNG)
-
+<br>
 - Put in this folder your files: icon.png, manifest.xml, project.zip
-
+<br>
 - Open your Primo RPA Platfor Studio and find your project template: File -> Project
 
 ![Template Studio](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/Custom_Template/8.PNG)
@@ -63,6 +63,7 @@ Open folder with your project
 - Create your new project. 
 - After Building We see that after creating the project there are no dependencies. Close Studio.
 - Next Copy dependencies.xml from Data Folder to root folder of project and replace this file.
+
 ![replace dependencies](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/Custom_Template/9.PNG)
 - Start studio and open your new project from custom template
 - **ENJOY**
