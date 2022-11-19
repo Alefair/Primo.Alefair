@@ -29,6 +29,7 @@ Ok? Next... Template consist from:
 Open folder with your project
 <br>
 - Copy your dependencies.xml file to Data Folder for Example(Absolutely!)
+
 ![depencies file](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/Custom_Template/2.PNG)
 
 - Open project.ltr with Notepad and clean this file, as below
