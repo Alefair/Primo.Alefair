@@ -39,6 +39,7 @@ Open folder with your project
 ![project.ltp](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/Custom_Template/4.PNG)
 
 - Select all files and zip to project.zip
+
 ![zip](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/Custom_Template/5.PNG)
 
 - **icon.png**([Example]()). Only size 48x48 px. You can create, for example, here https://online-fotoshop.ru/
