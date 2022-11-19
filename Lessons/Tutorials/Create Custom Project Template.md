@@ -54,6 +54,7 @@ Open folder with your project
 - Put in this folder your files: icon.png, manifest.xml, project.zip
 
 - Open your Primo RPA Platfor Studio and find your project template: File -> Project
+
 ![Template Studio](https://raw.githubusercontent.com/Alefair/Primo.Alefair/main/Lessons/Images/Custom_Template/8.PNG)
 
 
